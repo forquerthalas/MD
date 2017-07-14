@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_below="@+id/ll_pingJia"
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:id="@+id/ll_telephone_store"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/tel"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="15555555555"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:src="@drawable/phone_color"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/ll_pingJia"
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:id="@+id/ll_address_store"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/address_shangjia"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+        <TextView
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="山东省济宁市任城区山东省济宁市任城区山东省济宁市任城区山东省济宁市任城区"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/right_pingjia"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_below="@+id/ll_pingJia"
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/time"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="配送时间:  08:00-20:00"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/ll_pingJia"
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/time"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:text="配送服务:"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/zhuansong"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp" />
+        <TextView
+            android:textSize="12sp"
+            android:text="提供高品质送餐服务"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:src="@drawable/fast"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+        <ImageView
+
+            android:src="@drawable/intime"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/ll_pingJia"
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/shou"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+        <TextView
+            android:textSize="13sp"
+            android:layout_marginLeft="5dp"
+            android:text="新用户立减7元,首次使用银行卡再减3元(在线支付专享)"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/apy"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+        <TextView
+            android:textSize="13sp"
+            android:layout_marginLeft="5dp"
+            android:text="该商家支持在线支付"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ll_pingJia"
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="13sp"
+            android:layout_marginLeft="15dp"
+            android:text="查看商家营业资质"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:src="@drawable/right_pingjia"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ll_pingJia"
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="13sp"
+            android:layout_marginLeft="15dp"
+            android:text="举报商家"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:textColor="@color/red"
+            android:text="举报商家作弊领红包！"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/right_pingjia"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ll_pingJia"
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ListView
+        android:id="@+id/lv_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/iv_back_add"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/back_left"
+            android:layout_width="56dp"
+            android:layout_height="36dp" />
+        <TextView
+
+            android:text="新增收货地址"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textColor="@color/darkblack"
+            />
+        <ImageView
+            android:id="@+id/iv_sure"
+            android:padding="15dp"
+            android:src="@drawable/duihao"
+            android:layout_width="46dp"
+            android:layout_height="46dp" />
+    </LinearLayout>
+    <TextView
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <TextView
+        android:background="@color/address"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:text="联系人"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <TextView
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:text="姓名:"
+            android:gravity="center_vertical"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/et_name"
+            android:background="@null"
+            android:textSize="13sp"
+            android:hint="请填写收货人的姓名"
+            android:maxLength="10"
+            android:layout_width="180dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_del1"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/delete"
+            android:layout_width="16dp"
+            android:layout_height="16dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <RadioGroup
+        android:id="@+id/rg_address"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <com.lost.administrator.md.widget.MyRadioButton
+            android:id="@+id/rb1"
+            android:textSize="13sp"
+            android:text="先生"
+            android:checked="true"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+           />
+        <com.lost.administrator.md.widget.MyRadioButton
+            android:id="@+id/rb2"
+            android:layout_marginLeft="30dp"
+            android:textSize="13sp"
+            android:text="女士"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:text="手机:"
+            android:gravity="center_vertical"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/et_phone"
+            android:background="@null"
+            android:maxLength="11"
+            android:textSize="13sp"
+            android:hint="请填写收货手机号码"
+            android:inputType="phone"
+            android:layout_width="180dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_del2"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/delete"
+            android:layout_width="16dp"
+            android:layout_height="16dp" />
+    </LinearLayout>
+    <TextView
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <TextView
+        android:background="@color/address"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:text="收货地址"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <TextView
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_address"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:text="小区/大厦/学校:"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@drawable/gps"
+            android:layout_marginLeft="15dp"
+            android:layout_width="16dp"
+            android:layout_height="16dp" />
+        <TextView
+            android:id="@+id/tv_address"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:textSize="13sp"
+            android:hint="点击选择"
+            android:layout_width="120dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginRight="15dp"
+            android:src="@drawable/right_pingjia"
+            android:layout_width="16dp"
+            android:layout_height="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:text="楼号-门牌号:"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_marginLeft="15dp"
+            android:background="@null"
+            android:maxLines="1"
+            android:ellipsize="none"
+            android:textSize="13sp"
+            android:hint="例：99号楼999室"
+            android:layout_width="180dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_del3"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/delete"
+            android:layout_width="16dp"
+            android:layout_height="16dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </LinearLayout>
+</LinearLayout>

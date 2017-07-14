@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color"/>
+        <attr name="pstsUnderlineColor" format="color"/>
+        <attr name="pstsDividerColor" format="color"/>
+        <attr name="pstsIndicatorHeight" format="dimension"/>
+        <attr name="pstsUnderlineHeight" format="dimension"/>
+        <attr name="pstsDividerPadding" format="dimension"/>
+        <attr name="pstsTabPaddingLeftRight" format="dimension"/>
+        <attr name="pstsScrollOffset" format="dimension"/>
+        <attr name="pstsTabBackground" format="reference"/>
+        <attr name="pstsShouldExpand" format="boolean"/>
+        <attr name="pstsTextAllCaps" format="boolean"/>
+    </declare-styleable>
+
+
+    <!--循环滑动的ViewPager-->
+    <declare-styleable name="LoopViewPager">
+        <attr name="lvp_isAutoLoop" format="boolean"/>
+        <attr name="lvp_delayTime" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyRadioButton">
+        <!-- 设置top图片的宽度 -->
+        <attr name="drawableTopWidth" format="dimension" />
+        <!-- 设置top图片的高度 -->
+        <attr name="drawableTopHeight" format="dimension" />
+        <attr name="drawableBottomWidth" format="dimension" />
+        <attr name="drawableBottomHeight" format="dimension" />
+        <attr name="drawableRightWidth" format="dimension" />
+        <attr name="drawableRightHeight" format="dimension" />
+        <attr name="drawableLeftWidth" format="dimension" />
+        <attr name="drawableLeftHeight" format="dimension" />
+        <!-- 设置top的图片资源 -->
+        <attr name="drawableTop" format="reference" />
+        <attr name="drawableBottom" format="reference" />
+        <attr name="drawableRight" format="reference" />
+        <attr name="drawableLeft" format="reference" />
+    </declare-styleable>
+</resources>

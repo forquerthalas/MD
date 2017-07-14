@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_friend"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.yibai.administrator.md.activity.MyFriendActivity">
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/iv_back_friends"
+            android:padding="20dp"
+            android:src="@drawable/back_left"
+            android:layout_width="50dp"
+            android:layout_height="60dp" />
+        <TextView
+            android:text="我的好友"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textColor="@color/darkblack"
+            />
+    </LinearLayout>
+    <TextView
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="9dp" />
+    <TextView
+        android:id="@+id/tv_invite_friend"
+        android:textColor="@color/darkblack"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="邀请好友"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="9dp" />
+    <ListView
+        android:id="@+id/lv_friend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

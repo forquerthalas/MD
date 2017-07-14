@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <ImageView
+        android:id="@+id/iv_history_history"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/search2"
+        android:layout_width="15dp"
+        android:layout_height="15dp" />
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/tv_title_history"
+        android:textColor="@color/darkblack"
+        android:paddingLeft="15dp"
+        android:text="哈哈"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>

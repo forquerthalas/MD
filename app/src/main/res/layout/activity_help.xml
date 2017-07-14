@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yibai.administrator.md.activity.HelpActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:text="意见反馈"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"/>
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:src="@drawable/right_mine"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:text="常见问题"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"/>
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:src="@drawable/right_mine"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:text="网络诊断"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"/>
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:src="@drawable/right_mine"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll1_1"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/iv_back_help"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/back_left"
+            android:layout_width="56dp"
+            android:layout_height="36dp" />
+
+        <TextView
+            android:text="帮助反馈"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textColor="@color/darkblack"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="51dp"
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+</RelativeLayout>

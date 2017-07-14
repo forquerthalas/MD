@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_enter_brand"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.yibai.administrator.md.activity.EnterBrandActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:src="@drawable/enter4"
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="商家入驻"
+                android:textSize="14sp"
+                android:textColor="@color/darkblack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="12sp"
+                android:text="平台优势,成单量更有保证"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_btn_login"
+            android:gravity="center"
+            android:text="立即入驻"
+            android:layout_width="80dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <TextView
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:src="@drawable/enter2"
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="配送加盟合作"
+                android:textSize="14sp"
+                android:textColor="@color/darkblack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="12sp"
+                android:text="更多业务量,更大知名度"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_btn_login"
+            android:gravity="center"
+            android:text="立即加盟"
+            android:layout_width="80dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+    <TextView
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:src="@drawable/enter3"
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="城市代理商申请"
+                android:textSize="14sp"
+                android:textColor="@color/darkblack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="12sp"
+                android:text="代理美团外卖,合作共赢,共享O2O大餐"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_btn_login"
+            android:gravity="center"
+            android:text="立即加盟"
+            android:layout_width="80dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <TextView
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:src="@drawable/enter4"
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="品牌合作"
+                android:textSize="14sp"
+                android:textColor="@color/darkblack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="12sp"
+                android:text="请联系wpbg.market@meituan.com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:id="@+id/ll_enter_mine"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/wenti"
+            android:layout_marginLeft="15dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:text="常见问题"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"/>
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:src="@drawable/right_mine"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+    </LinearLayout>
+    <TextView
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="270dp" />
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/ll1_1"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/iv_back_enter"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/back_left"
+            android:layout_width="56dp"
+            android:layout_height="36dp" />
+
+        <TextView
+            android:text="商家入驻"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textColor="@color/darkblack"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="51dp"
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+</RelativeLayout>

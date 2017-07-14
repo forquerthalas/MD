@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <com.lzy.widget.HeaderViewPager
+        android:id="@+id/scrollableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:hvp_topOffset="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/iv_store_header"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/image5"
+                />
+            <com.wx.ovalimageview.RoundImageView
+                android:id="@+id/iv_store_small"
+                android:padding="3dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="50dp"
+                android:src="@mipmap/image4"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/shape_round_store"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <TextView
+                android:textSize="15sp"
+                android:id="@+id/tv_name_store"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="90dp"
+                android:layout_toRightOf="@+id/iv_store_small"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/white"
+                android:text="不约而同"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="70dp"
+                android:layout_toRightOf="@+id/iv_store_small"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/wheat"
+                android:text="公告:欢迎光临本店"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="@drawable/shap_coll_store"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="center"
+                android:layout_marginBottom="65dp"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp">
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/cb_coll_store"
+                    android:button="@null"
+                    android:background="@drawable/selector_cb_coll"
+                    android:layout_width="18dp"
+                    android:checked="false"
+                    android:layout_height="18dp" />
+                <TextView
+                    android:id="@+id/tv_coll"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:text="收藏"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.lzy.widget.tab.PagerSlidingTabStrip
+
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@mipmap/bg_menu_normal"
+            android:textSize="16sp"
+            app:pstsDividerColor="#00000000"
+            app:pstsIndicatorColor="#2DA4F0"
+            app:pstsIndicatorHeight="2dp"
+            app:pstsShouldExpand="false"
+            app:pstsTextAllCaps="false"
+            app:pstsUnderlineHeight="2dp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.lzy.widget.HeaderViewPager>
+
+    <include
+        android:id="@+id/titleBar"
+        layout="@layout/include_titlebar"/>
+</FrameLayout>

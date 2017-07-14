@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_title"
+            android:gravity="center"
+            android:background="#e7e6e6"
+            android:text="购物车"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <ListView
+            android:background="#ffffff"
+            android:id="@+id/lv_cart"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <LinearLayout
+            android:id="@+id/toolBar"
+            android:background="@color/c"
+            android:layout_width="fill_parent"
+            android:layout_height="41dp"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="2"
+                    android:background="#ffffff"
+                    android:padding="5dp">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/yellow"
+                            android:gravity="center"
+                            android:id="@+id/tv_back_pop"
+                            android:text="返回"
+                            android:src="@drawable/cart"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:id="@+id/tv_price_pop"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="30dp"
+                            android:layout_toRightOf="@+id/shopping_cart"
+                            android:textColor="#ff0000"
+                            android:textSize="18dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_goToPay_pop"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/c"
+                    android:gravity="center"
+                    android:text="去结算"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp" />
+
+        </LinearLayout>
+</LinearLayout>

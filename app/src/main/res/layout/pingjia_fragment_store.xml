@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+   >
+    <TextView
+        android:id="@+id/tv_1"
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_score"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:text="4.7"
+        android:textColor="@color/yellow"
+        android:layout_below="@+id/tv_1"
+        android:layout_width="120dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_3"
+        android:gravity="center"
+        android:layout_below="@+id/tv_score"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="综合评分"/>
+    <TextView
+        android:id="@+id/tv_8"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:layout_below="@+id/tv_3"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="商家好评率74%"/>
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_marginTop="28dp"
+        android:layout_toRightOf="@+id/tv_3"
+        android:background="@color/nearby_grey"
+        android:layout_width="2dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/tv_4"
+        android:text="配送评分"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.hedgehog.ratingbar.RatingBar
+        android:id="@+id/ratingBar_send"
+        app:clickable="false"
+        app:halfstart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@+id/tv_5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        app:starHalf="@drawable/star_half"
+        app:starFill="@drawable/star_full"
+        app:starEmpty="@drawable/star_empty"
+        app:starImageWidth="15dp"
+        app:starCount="5"
+        app:starImagePadding="4dp"
+        />
+    <com.hedgehog.ratingbar.RatingBar
+        android:id="@+id/ratingBar_store"
+        app:clickable="false"
+        app:halfstart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="43dp"
+        android:layout_toRightOf="@+id/tv_6"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        app:starHalf="@drawable/star_half"
+        app:starFill="@drawable/star_full"
+        app:starEmpty="@drawable/star_empty"
+        app:starImageWidth="15dp"
+        app:starCount="5"
+        app:starImagePadding="4dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/tv_6"
+        android:layout_below="@+id/tv_5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/tv_4"
+        android:text="商家评价"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/score_send"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="28dp"
+        android:layout_toRightOf="@+id/tv_5"
+        android:textColor="@color/orange"
+        android:text="4.9"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/score_store"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="53dp"
+        android:layout_toRightOf="@+id/tv_5"
+        android:textColor="@color/orange"
+        android:text="4.9"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/tv_7"
+        android:layout_below="@+id/tv_8"
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <LinearLayout
+        android:id="@+id/ll_pingJia"
+        android:layout_below="@+id/tv_8"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:text="@string/dzdp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="3.5分"
+            android:id="@+id/score_dianPing"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_count_pingJia"
+            android:text="6"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="条到店评价"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/right_pingjia"
+            android:layout_gravity="center_vertical"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_9"
+        android:layout_below="@+id/ll_pingJia"
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <GridView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/gridView_pingJia"
+        android:layout_below="@+id/tv_9"
+        android:numColumns="3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </GridView>
+    <CheckBox
+        android:id="@+id/cb_pingJia"
+        android:checked="true"
+        android:layout_below="@+id/gridView_pingJia"
+        android:layout_width="25dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/tv_10"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/cb_pingJia"
+        android:layout_below="@+id/gridView_pingJia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="只看有内容的评论"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_11"
+        android:layout_below="@+id/tv_10"
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+    <ListView
+        android:id="@+id/lv_pingJia"
+        android:layout_below="@+id/tv_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

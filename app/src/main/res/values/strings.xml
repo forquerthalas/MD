@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">美团外卖</string>
+    <string name="settlement">去结算</string>
+    <string name="shopping_cart">购物车</string>
+    <string name="service_products">服务产品</string>
+    <string name="business">商家</string>
+    <string name="evaluate">评价</string>
+    <string name="dzdp">大众点评</string>
+    <string name="nearby_store">附近商家</string>
+    <string name="rule1">美团红包是为美团外卖发行和认可的购物券，可在美团外卖App和美团App外卖频道中
+    下单时使用，可抵扣响应的金额。
+    </string>
+    <string name="rule2">红包使用同时满足以下条件：
+        \n (1) 商品费和餐盒费超过十元才可使用支付红包
+        \n (2) 仅限在线支付使用，且收餐人手机号、领红包时输入的手机号和账号中的手机号码需为同意号码
+        \n (3) 红包有品类及金额限制，需要在对应品类下且满足限制金额后才可以使用
+        \n (4) 每个订单只能使用一张红】包，且每天最多使用两次红包
+            </string>
+    <string name="rule3">首次红包需同时满足以下条件才能使用，且首单红包不与其他优惠(首减，满减，满赠，
+        套餐赠，折扣菜)同乡：
+        \n (1) 新用户(设备、手机号、美团账号均未在美团外卖下过单)首次下单
+        \n (2) 仅限在线支付使用，且收餐人手机号、领取红包时输入的手机号和账号中的手机号需为同一手机号码
+        \n (3) 商品价+餐盒费超过十元
+    </string>
+    <string name="rule4">美团外卖会在线上不定期的举办下单返红包的活动。通过外卖App，或美团App外卖频道
+        下单时，支付成功后，有可能获得一次领红包的机会，一天只有一次机会。并非所有订单下单后都会产生红包。
+    </string>
+    <string name="rule5">美团红包不找零、不兑换</string>
+    <string name="rule6">
+        \t (1) 请确保领取红包的手机号和账号绑定的手机号码一致
+        \n\t(2) 红包可能已经过期或被冻结，可以再过期券列表中查看
+        \n\t(3) 折扣券、含小数点的红包及部分其他类型红包仅在最新客户端内才能查看,请确保您的客户端已经升级
+               至最新版本
+    </string>
+    <string name="store1">
+        商家代金券是外卖商家自己发行的，在用户下单时可以用于自己店铺内的优惠券，可以抵扣相应的金额
+    </string>
+    <string name="store2">
+        获取商家代金券需同时满足已下条件:
+        \n (1) 下单的商家有满返商家代金券活动。 (商家列表页中带有返字标识的商家)
+        \n (2) 实际支付金额满足返券要求，确认订单后可获得商家代金券，下次下单时可用。(如满50返5元商家代
+               金券，需要实际支付金额满50，确认订单后可以获取5元商家代金券)
+    </string>
+    <string name="store3">
+        商家代金券需同时满足以下条件才可以使用:
+        \n (1) 仅在线支付使用。
+        \n (2) 仅限在发该代金券的商家店铺使用。
+        \n (3) 满足代金券上的使用条件
+    </string>
+    <string name="store4">商家代金券不找零、不兑换</string>
+    <string name="mpjia">要评价了了吗 好紧张 第一次评价 怎么样才能装作经常评价的样子啊
+                有没有潜规则啊</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_share"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yibai.administrator.md.activity.ShareActivity">
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/ll_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:id="@+id/iv_back_share"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:src="@drawable/back_left"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:text="分享给好友"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textColor="@color/darkblack"
+            />
+    </LinearLayout>
+    <TextView
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/erweima"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="扫描后直接下载美团外卖App"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/qita"
+        android:layout_width="130dp"
+        android:layout_height="40dp" />
+</LinearLayout>

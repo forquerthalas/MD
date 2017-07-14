@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rule"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yibai.administrator.md.activity.RuleActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="50dp"
+            android:textColor="@color/darkblack"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical"
+            android:background="@color/nearby_grey"
+            android:text="美团红包"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <LinearLayout
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:textColor="@color/black"
+                android:text="1.说明是美团红包？"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/iv_rule1"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/z_"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_rule_1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="3dp"
+            android:text="@string/rule1"
+            android:textSize="13sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:textColor="@color/black"
+                android:text="2.美团红包的使用条件？"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/iv_rule2"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/z_"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_rule_2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/rule2"
+                android:textSize="13sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/nearby_grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:textColor="@color/black"
+                android:text="3.首单红包的使用条件？"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/iv_rule3"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/z_"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/ll_rule_3"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/rule3"
+                android:textSize="13sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/nearby_grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:textColor="@color/black"
+                android:text="4.如何获取美团红包？"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/iv_rule4"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/z_"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/ll_rule_4"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/rule4"
+                android:textSize="13sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/nearby_grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:textColor="@color/black"
+                android:text="5.美团红包可以找零兑换码？"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/iv_rule5"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/z_"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/ll_rule_5"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/rule5"
+                android:textSize="13sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/nearby_grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:textColor="@color/black"
+                android:text="6.为什么账户里找不到领取的红包？"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/iv_rule6"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/z_"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_rule_6"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:background="@color/nearby_grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/rule6"
+                android:textSize="13sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/nearby_grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:background="@color/nearby_grey"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <TextView
+            android:textColor="@color/darkblack"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical"
+            android:background="@color/nearby_grey"
+            android:text="商家代金券"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <LinearLayout
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:textColor="@color/black"
+                android:text="1.什么是商家代金券？"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/iv_rule7"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/z_"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/ll_rule_7"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/store1"
+                android:textSize="13sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/nearby_grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="2.如何获取商家代金券？"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/textView4" />
+
+            <ImageView
+                android:id="@+id/iv_rule8"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/z_"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/ll_rule_8"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/store2"
+                android:textSize="13sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/nearby_grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:textColor="@color/black"
+                android:text="3.商家代金券的使用条件？"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/iv_rule9"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/z_"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/ll_rule_9"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/store3"
+                android:textSize="13sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/nearby_grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="4.商家代金券可以找零兑换吗？"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/textView5" />
+
+            <ImageView
+                android:id="@+id/iv_rule10"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/z_"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/ll_rule_10"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/store4"
+                android:textSize="13sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/nearby_grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/ll_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/iv_back_rule"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/back_left"
+            android:layout_width="16dp"
+            android:layout_height="16dp" />
+        <TextView
+            android:paddingLeft="20dp"
+            android:text="返回"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="@color/darkblack"
+            />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_balanceInfo"
+            android:textColor="@color/darkblack"
+            android:gravity="center"
+            android:text="使用说明"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>

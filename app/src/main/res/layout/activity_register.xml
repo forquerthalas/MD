@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/nearby_grey"
+    tools:context="com.yibai.administrator.md.activity.RegisterActivity">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/ll_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/iv_back_register"
+            android:padding="20dp"
+            android:src="@drawable/back_left"
+            android:layout_width="50dp"
+            android:layout_height="60dp" />
+        <TextView
+
+            android:text="注册"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/tv_count"
+            android:textColor="@color/black"
+            android:text="(59)"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:layout_marginRight="20dp"
+            android:id="@+id/tv_sendInfo"
+            android:textColor="@color/black"
+            android:text="重发验证码"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/grey"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:textColor="@color/brown"
+            android:gravity="center"
+            android:text="1 输入手机号码"
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageView
+            android:src="@drawable/right_register"
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+        <TextView
+
+            android:gravity="center"
+            android:text="2 输入验证码"
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageView
+            android:src="@drawable/right_register"
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+        <TextView
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="3 设置密码"
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/et_phone_register"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:hint="请输入您的手机号"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/brown"
+        />
+    <Button
+        android:background="@drawable/selector_btn_register"
+        android:id="@+id/btn_getCode_register"
+        android:textColor="@color/white"
+        android:enabled="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="获取验证码"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb_deal_register"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:text="我已阅读并接受"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_deal_register"
+            android:drawableBottom="@drawable/shap_bottom_line"
+            android:text="《美团用户协议》"
+            android:textColor="@color/deepGreen"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

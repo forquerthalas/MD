@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/box"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:text="呵呵店"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            />
+        <ImageView
+            android:layout_marginRight="15dp"
+            android:src="@drawable/right_pingjia"
+            android:layout_width="15dp"
+            android:layout_height="14dp" />
+    </LinearLayout>
+    <TextView
+        android:background="@color/nearby_grey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="90dp"
+            android:layout_height="match_parent">
+
+            <com.wx.ovalimageview.RoundImageView
+                android:id="@+id/iv_icon_myPingJia"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/default_mine"
+                android:layout_width="65dp"
+                android:layout_height="65dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <TextView
+                    android:id="@+id/tv_name_myPingJia"
+                    android:textColor="@color/darkblack"
+                    android:gravity="center_vertical"
+                    android:text="不吃饭"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/tv_time_myPingJia"
+                    android:textSize="12sp"
+                    android:text="2016-02-31"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:text="综合:"
+                    android:textSize="12sp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <com.hedgehog.ratingbar.RatingBar
+                    android:id="@+id/ratingBar_myPingJia"
+                    app:clickable="false"
+                    app:halfstart="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/tv_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    app:starHalf="@drawable/star_half"
+                    app:starFill="@drawable/star_full"
+                    app:starEmpty="@drawable/star_empty"
+                    app:starImageWidth="15dp"
+                    app:starCount="5"
+                    app:starImagePadding="4dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_store_myPingJia"
+                    android:gravity="center_vertical"
+                    android:text="商家:4.9分"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/tv_send_myPingJia"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:text="配送:4.9分"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <TextView
+                    android:textSize="12sp"
+                    android:text="美团专送"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:textSize="12sp"
+                    android:text="99分钟送达"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <TextView
+                android:textColor="@color/darkblack"
+                android:text="@string/mpjia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:id="@+id/ll_zan_myPingJia"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <ImageView
+                    android:src="@drawable/zan2"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:id="@+id/tv_zan_myPingjia"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="11sp"
+                    android:text="不好吃"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_send_myPingJia"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <ImageView
+                    android:src="@drawable/plane"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:id="@+id/tv_sendInfo_myPingJia"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="11sp"
+                    android:text="送货快等等"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

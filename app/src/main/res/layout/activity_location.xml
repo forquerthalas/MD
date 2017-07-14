@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yibai.administrator.md.activity.LocationActivity">
+    <LinearLayout
+        android:background="@color/white"
+
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/iv_back_loc"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="18dp"
+            android:paddingTop="17dp"
+            android:src="@drawable/fanhui"
+            android:layout_width="45dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:gravity="center_vertical"
+            android:text="附近地址"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_addAddress"
+            android:layout_marginRight="15dp"
+            android:text="新增地址"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list_near"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>

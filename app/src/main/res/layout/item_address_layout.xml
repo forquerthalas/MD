@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:id="@+id/tv_street_address"
+            android:textColor="@color/darkblack"
+            android:text="城市华府"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_door_address"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/darkblack"
+            android:text="3楼101室"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:id="@+id/tv_name_address"
+            android:textColor="@color/darkblack"
+            android:text="你好"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv_sex_address"
+            android:textColor="@color/darkblack"
+            android:text="先生"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_tel_address"
+            android:layout_marginLeft="10dp"
+            android:text="15092696151"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="100dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_edit_address"
+            android:src="@drawable/edit"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:id="@+id/iv_del_address"
+            android:src="@drawable/del"
+            android:layout_marginLeft="30dp"
+            android:layout_width="19dp"
+            android:layout_height="19dp" />
+
+    </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+</LinearLayout>

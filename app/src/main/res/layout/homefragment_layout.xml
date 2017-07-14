@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/refresh"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/light"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <com.lost.administrator.md.widget.ObservableScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <com.youth.banner.Banner
+            android:id="@+id/banner"
+
+            app:indicator_height="5dp"
+            app:indicator_width="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.youth.banner.Banner>
+        <RelativeLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp">
+            <LinearLayout
+                android:id="@+id/ll_city"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="24dp">
+                <LinearLayout
+                    android:id="@+id/ll_location"
+                    android:layout_marginRight="50dp"
+                    android:gravity="center"
+                    android:background="@drawable/shape_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/gprs"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        />
+                    <TextView
+                        android:id="@+id/tv_address"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:maxWidth="120dp"
+                        android:textSize="15sp"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp" />
+                    <ImageView
+                        android:src="@drawable/right"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="6dp"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                          />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_search_home"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:background="@drawable/shape_search"
+                android:layout_width="70dp"
+                android:layout_height="24dp">
+                <ImageView
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/search"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp" />
+                <TextView
+                    android:textColor="@color/white"
+                    android:text="搜索"
+                    android:gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="24dp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+        <TextView
+            android:background="@drawable/tuoyuan"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+    </RelativeLayout>
+    <GridView
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:id="@+id/gv_menu"
+        android:numColumns="4"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </GridView>
+        <TextView
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"/>
+        <LinearLayout
+            android:background="@color/nearby_grey"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <ImageView
+                android:background="@color/white"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/iv_ad_1"
+                android:src="@drawable/iv_ad1"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                />
+            <LinearLayout
+
+                android:layout_marginLeft="1dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="0.8"
+                   android:orientation="horizontal">
+                   <ImageView
+                       android:background="@color/white"
+                       android:padding="20dp"
+                       android:scaleType="centerCrop"
+                       android:id="@+id/iv_ad_2"
+                       android:src="@drawable/iv_ad2"
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_weight="1"/>
+                   <ImageView
+                       android:background="@color/white"
+                       android:padding="20dp"
+                       android:scaleType="centerCrop"
+                       android:id="@+id/iv_ad_3"
+                       android:src="@drawable/iv_ad3"
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_weight="1"/>
+               </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:background="@color/white"
+                        android:padding="10dp"
+                        android:src="@drawable/iv_ad4"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/iv_ad_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+                    <ImageView
+                        android:background="@color/white"
+                        android:padding="10dp"
+                        android:layout_marginLeft="1dp"
+                        android:src="@drawable/iv_ad5"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/iv_ad_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@color/nearby_grey"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+        <TextView
+            android:background="@color/yellow"
+            android:layout_width="2dp"
+            android:layout_height="18dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/nearby_store"/>
+    </LinearLayout>
+
+
+        <com.lost.administrator.md.widget.MyLoadListView
+            android:id="@+id/lv_store"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+    </LinearLayout>
+
+    </com.lost.administrator.md.widget.ObservableScrollView>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/search_goods"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <LinearLayout
+            android:id="@+id/ll_search_goods"
+            android:background="@drawable/shape_searchgoods"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+            <ImageView
+                android:id="@+id/img_search"
+                android:src="@drawable/search_brown"
+                android:layout_width="18dp"
+                android:layout_height="18dp" />
+            <TextView
+                android:id="@+id/tv_search_goods"
+                android:layout_marginLeft="10dp"
+                android:text="输入商家或商品名称"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:background="@color/gray"
+        android:id="@+id/ll_animation"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="正在加载..."
+            />
+        <ImageView
+            android:orientation="vertical"
+            android:id="@+id/iv_animation"
+            android:src="@drawable/animation_load"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+        </ImageView>
+    </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

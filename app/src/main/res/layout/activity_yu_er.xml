@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yu_er"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.yibai.administrator.md.activity.YuErActivity">
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:id="@+id/iv_back_balance"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:src="@drawable/back_left"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:text="余额"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textColor="@color/darkblack"
+            />
+        <TextView
+            android:id="@+id/tv_balanceInfo"
+            android:textColor="@color/darkblack"
+            android:gravity="center"
+            android:text="余额明细"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shape_white_black"/>
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:src="@drawable/wallet2"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/darkblack"
+        android:textSize="18sp"
+        android:text="￥0.00"
+        android:gravity="center"
+        android:id="@+id/tv_balance"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/btn_giveBack"
+        android:layout_marginTop="50dp"
+        android:text="原路退回"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+</LinearLayout>

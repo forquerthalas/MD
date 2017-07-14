@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_yuan"
+            android:layout_width="6dp"
+            android:layout_height="6dp" />
+        <TextView
+            android:background="@color/xian"
+            android:layout_width="1dp"
+            android:layout_height="78dp" />
+         <TextView
+            android:background="@drawable/shape_yuan"
+            android:layout_width="6dp"
+            android:layout_height="6dp" />
+            <TextView
+                android:background="@color/xian"
+                android:layout_width="1dp"
+                android:layout_height="128dp" />
+            <TextView
+                android:background="@drawable/shape_yuan"
+                android:layout_width="6dp"
+                android:layout_height="6dp" />
+            <TextView
+                android:background="@color/xian"
+                android:layout_width="1dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:background="@drawable/shape_yuan"
+                android:layout_width="6dp"
+                android:layout_height="6dp" />
+            <TextView
+                android:background="@color/xian"
+                android:layout_width="1dp"
+                android:layout_height="46dp" />
+            <TextView
+                android:background="@drawable/shape_yuan"
+                android:layout_width="6dp"
+                android:layout_height="6dp" />
+            <TextView
+                android:background="@color/xian"
+                android:layout_width="1dp"
+                android:layout_height="90dp" />
+            <TextView
+                android:background="@drawable/shape_yuan"
+                android:layout_width="6dp"
+                android:layout_height="6dp" />
+            <TextView
+                android:background="@color/xian"
+                android:layout_width="1dp"
+                android:layout_height="169dp" />
+            <TextView
+                android:background="@drawable/shape_yuan"
+                android:layout_width="6dp"
+                android:layout_height="6dp" />
+            <TextView
+                android:background="@color/xian"
+                android:layout_width="1dp"
+                android:layout_height="55dp" />
+            <TextView
+                android:background="#ece9e9"
+                android:layout_width="1dp"
+                android:layout_height="5dp" />
+            <ImageView
+                android:src="@drawable/songdao"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:background="#ece9e9"
+                android:layout_width="1dp"
+                android:layout_height="160dp" />
+        </LinearLayout>
+
+        <LinearLayout
+         android:orientation="vertical"
+         android:layout_marginRight="15dp"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+             <LinearLayout
+                 android:layout_marginTop="20dp"
+                 android:orientation="horizontal"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+                 <TextView
+                     android:textColor="@color/darkblack"
+                     android:text="订单已提交"
+                     android:textSize="16sp"
+                     android:layout_weight="1"
+                     android:gravity="center_vertical"
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:id="@+id/textView3" />
+
+                 <TextView
+                 android:text="2月31日 25:66"
+                 android:gravity="center_vertical"
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent" />
+             </LinearLayout>
+
+            <TextView
+                android:textSize="14sp"
+                 android:layout_marginTop="10dp"
+                 android:text="请耐心等待商家确认"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ece9e9"
+                />
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/darkblack"
+                    android:text="点击参与【邀新活动】"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="2月31日 25:66"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:src="@drawable/yaoxin"
+                android:scaleType="fitXY"
+                android:layout_width="240dp"
+                android:layout_height="80dp" />
+            <LinearLayout
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/darkblack"
+                    android:text="支付成功"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="2月31日 26:66"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ece9e9"
+                />
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/darkblack"
+                    android:text="商家已接单"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="2月31日 26:69"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ece9e9"
+                />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/darkblack"
+                    android:text="骑手正在赶往商家"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:text="2月31日 25:72"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="骑手电话:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2" />
+
+                <TextView
+                    android:textColor="#4646de"
+                    android:text="15565659994"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                </LinearLayout>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ece9e9"
+                />
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/darkblack"
+                    android:text="骑手已取货"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:text="2月31日 25:76"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <TextView
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="请等待配送"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ditu"
+                android:scaleType="fitXY"
+                android:layout_width="240dp"
+                android:layout_height="80dp" />
+            <LinearLayout
+                android:layout_marginTop="45dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/darkblack"
+                    android:text="已送达"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:text="2月31日 25:86"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ece9e9"
+                />
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/darkblack"
+                    android:text="订单完成"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="2月31日 28:66"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <TextView
+                android:textSize="14sp"
+                android:layout_marginTop="1dp"
+                android:text="如果对骑手服务很满意，就给他点鼓励吧"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="@drawable/shape_thank"
+                android:layout_marginTop="18dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="32dp">
+                <TextView
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:background="@drawable/shape_yuan"
+                    android:textColor="@color/white"
+                    android:text="￥"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/yuan"
+                    android:text="答谢骑手"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+     </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_ping_jia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.yibai.administrator.md.activity.MyPingJiaActivity">
+    <ScrollView
+        android:id="@+id/scroll_myPingJia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+          <RelativeLayout
+            android:background="@drawable/bg_pingjia"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <com.wx.ovalimageview.RoundImageView
+                android:id="@+id/iv_icon_mine"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/default_mine"
+                android:layout_width="65dp"
+                android:layout_height="65dp" />
+            <TextView
+                android:id="@+id/tv_name_myPingJia"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/iv_icon_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="不是我啊 >"
+                />
+            <TextView
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:textSize="11sp"
+                android:layout_below="@+id/tv_name_myPingJia"
+                android:text="已贡献1条评价"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+           </RelativeLayout>
+            <ListView
+                android:id="@+id/lv_myPingJia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>
+    <LinearLayout
+
+        android:id="@+id/ll_title_myPingJia"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="52dp"
+            android:id="@+id/tv_title_myPingJia"
+            android:text="我的评价"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textColor="@color/darkblack"
+            />
+        <TextView
+            android:background="@color/nearby_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="52dp"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/iv_back_myPingJia"
+            android:padding="20dp"
+            android:src="@drawable/back_left"
+            android:layout_width="60dp"
+            android:layout_height="56dp" />
+    </LinearLayout>
+</RelativeLayout>

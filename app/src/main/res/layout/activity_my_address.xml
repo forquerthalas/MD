@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_address"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+   >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     >
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <LinearLayout
+                android:id="@+id/ll_back_myAddress"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_back_address"
+                android:paddingLeft="20dp"
+                android:paddingRight="14dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="17dp"
+                android:src="@drawable/back_left"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+
+                android:text="我的收获地址"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textColor="@color/darkblack"
+                />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_manage_address"
+                android:textSize="14sp"
+                android:layout_marginRight="15dp"
+                android:text="管理"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    <TextView
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <TextView
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+    </LinearLayout>
+    <ListView
+        android:layout_weight="1"
+        android:id="@+id/list_address"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </ListView>
+    <TextView
+        android:background="@color/address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:id="@+id/ll_add_address"
+        android:background="@color/nearby_grey"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:src="@drawable/jiahao"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/darkblack"
+            android:text="新增收货地址"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

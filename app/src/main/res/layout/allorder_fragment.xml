@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:visibility="gone"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/img_onorder"
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:id="@+id/imageView"
+     />
+    <TextView
+        android:gravity="center"
+        android:text="最近3个月没有订单哦~"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/textView2"
+       />
+    <Button
+        android:id="@+id/btn_buy_order"
+        android:background="@drawable/shape_btn_login"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="立即下单"
+      />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
